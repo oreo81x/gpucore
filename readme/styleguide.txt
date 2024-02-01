@@ -1,0 +1,61 @@
+gpucore library styleguide
+
+
+constants      = UPPER_SNAKE_CASE
+anything else  = lower_snake_case
+
+
+#define UPPER_SNAKE_CASE
+#define UPPER_SNAKE_CASE
+
+namespace lower_snake_case
+{
+    const uint32_t UPPER_SNAKE_CASE = 1;
+    const uint32_t UPPER_SNAKE_CASE = 1;
+
+
+    void func()
+    {
+              uint32_t lower_snake_case = 0;
+        const uint32_t UPPER_SNAKE_CASE = 0;
+    }
+
+
+    class lower_snake_case
+    {
+    public:
+        void lower_snake_case();
+        void lower_snake_case(const int32_t &a_argument);
+
+    protected:
+        void lower_snake_case();
+        void lower_snake_case(const int32_t &a_argument);
+
+    private:
+        void lower_snake_case();
+        void lower_snake_case(const int32_t &a_argument);
+
+    public:
+        int32_t lower_snake_case = 0;
+        int32_t lower_snake_case = 0;
+
+    protected:
+        int32_t m_lower_snake_case = 0;
+        int32_t m_lower_snake_case = 0;
+
+    private:
+        int32_t m_lower_snake_case = 0;
+        int32_t m_lower_snake_case = 0;
+    };
+
+
+    void lower_snake_case();
+    void lower_snake_case(const int32_t &a_argument);
+
+
+    enum class lower_snake_case
+    {
+        UPPER_SNAKE_CASE,
+        UPPER_SNAKE_CASE
+    };
+}
